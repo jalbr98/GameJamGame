@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://objpposbl5ys"
-path="res://.godot/imported/bear.svg-6641fe992d85ca6e08edb3ec73cb858d.ctex"
+uid="uid://csme4nx6dfpek"
+path="res://.godot/imported/HumanEnemy.png-8c08e8aa2c6a19cba27a094206cbd16c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/bear/bear.svg"
-dest_files=["res://.godot/imported/bear.svg-6641fe992d85ca6e08edb3ec73cb858d.ctex"]
+source_file="res://Assets/Enemies/Human/HumanEnemy.png"
+dest_files=["res://.godot/imported/HumanEnemy.png-8c08e8aa2c6a19cba27a094206cbd16c.ctex"]
 
 [params]
 
@@ -32,6 +32,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

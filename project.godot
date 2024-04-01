@@ -13,7 +13,6 @@ config_version=5
 config/name="Game Jam Game"
 run/main_scene="res://Room1.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://Assets/Player/Human/icon.svg"
 
 [autoload]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnw6xhhv4o1va"
-path="res://.godot/imported/icon.svg-23df039a918e3d2595e62c4fd6de0289.ctex"
+uid="uid://3pvtm3g80sgv"
+path="res://.godot/imported/Rat.png-46a166a7310b5d7f7471568bc760db72.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/Human/icon.svg"
-dest_files=["res://.godot/imported/icon.svg-23df039a918e3d2595e62c4fd6de0289.ctex"]
+source_file="res://Assets/Player/Rat/Rat.png"
+dest_files=["res://.godot/imported/Rat.png-46a166a7310b5d7f7471568bc760db72.ctex"]
 
 [params]
 
@@ -32,6 +32,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

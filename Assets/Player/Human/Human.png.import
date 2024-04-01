@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://daeb7rsotaovj"
-path="res://.godot/imported/deer.svg-b32968f274513a1ed989c29dd046ba25.ctex"
+uid="uid://by1sv3nrvpj23"
+path="res://.godot/imported/Human.png-0b71b22fdd2bf12e2f93e5fa1e529f7b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Player/deer/deer.svg"
-dest_files=["res://.godot/imported/deer.svg-b32968f274513a1ed989c29dd046ba25.ctex"]
+source_file="res://Assets/Player/Human/Human.png"
+dest_files=["res://.godot/imported/Human.png-0b71b22fdd2bf12e2f93e5fa1e529f7b.ctex"]
 
 [params]
 
@@ -32,6 +32,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false
