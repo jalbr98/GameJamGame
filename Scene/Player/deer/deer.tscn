@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://c4qraibkjw580"]
+
+[ext_resource type="Script" path="res://Script/Player/deer/deer.gd" id="1_o31gu"]
+[ext_resource type="Texture2D" uid="uid://bnw6xhhv4o1va" path="res://Assets/Player/Human/icon.svg" id="2_uwxwf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_66xqs"]
+size = Vector2(126, 126)
+
+[node name="deer" type="CharacterBody2D"]
+script = ExtResource("1_o31gu")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.39, 1)
+texture = ExtResource("2_uwxwf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+scale = Vector2(0.39, 1)
+shape = SubResource("RectangleShape2D_66xqs")

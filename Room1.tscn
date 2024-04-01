@@ -1,10 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://x88nekrlss6x"]
+[gd_scene load_steps=4 format=3 uid="uid://x88nekrlss6x"]
 
 [ext_resource type="PackedScene" uid="uid://csl2i1cdoi7ua" path="res://Scene/Player/Human/Human.tscn" id="1_0hba1"]
-[ext_resource type="Script" path="res://Script/Player/Human/Human.gd" id="1_o4y4r"]
+[ext_resource type="PackedScene" uid="uid://clmvhnnyvurki" path="res://Scene/Player/Rat/Rat.tscn" id="1_40aak"]
+[ext_resource type="Script" path="res://Script/Room.gd" id="1_cr867"]
 
-[node name="Node2D" type="Node2D"]
-script = ExtResource("1_o4y4r")
+[node name="Room1" type="Node2D"]
+script = ExtResource("1_cr867")
+human = ExtResource("1_0hba1")
+rat = ExtResource("1_40aak")
 
-[node name="Player" parent="." instance=ExtResource("1_0hba1")]
-position = Vector2(68, 68)
+[node name="Human" parent="." instance=ExtResource("1_0hba1")]
+position = Vector2(490, 296)

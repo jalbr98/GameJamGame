@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://qjhfrmwt221s"]
+
+[ext_resource type="Script" path="res://Script/Player/bear/bear.gd" id="1_kxpy3"]
+[ext_resource type="Texture2D" uid="uid://bnw6xhhv4o1va" path="res://Assets/Player/Human/icon.svg" id="2_20iv7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_66xqs"]
+size = Vector2(126, 126)
+
+[node name="bear" type="CharacterBody2D"]
+script = ExtResource("1_kxpy3")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("2_20iv7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_66xqs")
