@@ -1,13 +1,22 @@
-[gd_scene load_steps=4 format=3 uid="uid://x88nekrlss6x"]
+[gd_scene load_steps=7 format=3 uid="uid://x88nekrlss6x"]
 
 [ext_resource type="PackedScene" uid="uid://csl2i1cdoi7ua" path="res://Scene/Player/Human/Human.tscn" id="1_0hba1"]
 [ext_resource type="PackedScene" uid="uid://clmvhnnyvurki" path="res://Scene/Player/Rat/Rat.tscn" id="1_40aak"]
 [ext_resource type="Script" path="res://Script/Room.gd" id="1_cr867"]
+[ext_resource type="PackedScene" uid="uid://qjhfrmwt221s" path="res://Scene/Player/bear/bear.tscn" id="4_1vwtu"]
+[ext_resource type="PackedScene" uid="uid://c4qraibkjw580" path="res://Scene/Player/deer/deer.tscn" id="5_tc757"]
+[ext_resource type="PackedScene" uid="uid://b8xpadjijwcu0" path="res://Scene/Enemies/Human/humanEnemy.tscn" id="6_8hxbk"]
 
 [node name="Room1" type="Node2D"]
 script = ExtResource("1_cr867")
 human = ExtResource("1_0hba1")
 rat = ExtResource("1_40aak")
+bear = ExtResource("4_1vwtu")
+deer = ExtResource("5_tc757")
+metadata/_edit_horizontal_guides_ = [-150.0]
 
 [node name="Human" parent="." instance=ExtResource("1_0hba1")]
 position = Vector2(490, 296)
+
+[node name="HumanEnemy" parent="." instance=ExtResource("6_8hxbk")]
+position = Vector2(191, 297)
